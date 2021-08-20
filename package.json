@@ -14,11 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "airtable": "^0.11.1",
+    "dotenv": "^10.0.0",
     "fastify": "^3.20.2",
+    "fastify-cors": "^6.0.2",
     "fastify-formbody": "^5.1.0",
     "fastify-plugin": "^3.0.0"
   },
   "devDependencies": {
+    "@types/fastify-cors": "^2.1.0",
     "@types/node": "^16.6.2",
     "concurrently": "^6.2.1",
     "nodemon": "^2.0.12",
